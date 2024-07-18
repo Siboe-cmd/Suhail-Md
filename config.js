@@ -14,7 +14,7 @@ global.location="Harare,Zimbabwe."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway"
+global.DATABASE_URL = process.env.DATABASE_URL || "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Harare";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
